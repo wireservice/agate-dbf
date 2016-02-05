@@ -17,7 +17,8 @@ class TableDBF(object):
         Parse a DBF file.
 
         :param path:
-            Path to an DBF file to load or a file-like object for one.
+            Path to an DBF file to load. Note that due to limitations of the
+            dependency you can not pass a file handle. It must be a path.
         """
         dbf = DBF(path, load=True, lowernames=True, encoding=encoding, recfactory=recfactory)
         table = agate.Table(dbf.records, column_names=dbf.field_names)

@@ -1,6 +1,6 @@
-=====================
+===================
 agate-dbf |release|
-=====================
+===================
 
 .. include:: ../README.rst
 
@@ -28,6 +28,12 @@ agate-dbf uses a monkey patching pattern to add read for dbf files support to al
     agatedbf.patch()
 
 Calling :func:`.patch` attaches all the methods of :class:`.TableDBF` to :class:`agate.Table <agate.table.Table>`.
+
+.. code-block:: python
+
+    table = agate.Table.from_dbf('examples/test.dbf')
+
+    print(table)
 
 ===
 API

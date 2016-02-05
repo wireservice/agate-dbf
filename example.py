@@ -7,5 +7,5 @@ agatedbf.patch()
 
 table = agate.Table.from_dbf('examples/test.dbf')
 
-table.print_structure()
+print(table)
 table.print_table()
