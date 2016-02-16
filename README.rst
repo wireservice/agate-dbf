@@ -1,4 +1,4 @@
-.. image:: https://travis-ci.org/onyxfish/agate-dbf.png
+.. image:: https://travis-ci.org/wireservice/agate-dbf.png
     :target: https://travis-ci.org/wireservice/agate-dbf
     :alt: Build status
 
