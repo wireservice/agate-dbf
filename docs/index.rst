@@ -11,7 +11,7 @@ To install:
 
 .. code-block:: bash
 
-    pip install agatedbf
+    pip install agate-dbf
 
 For details on development or supported platforms see the `agate documentation <http://agate.readthedocs.org>`_.
 
