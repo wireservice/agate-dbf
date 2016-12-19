@@ -9,7 +9,7 @@ install_requires = [
 
 setup(
     name='agate-dbf',
-    version='0.1.1',
+    version='0.2.0',
     description='agate-dbf adds read support for dbf files to agate.',
     long_description=open('README.rst').read(),
     author='Christopher Groskopf',
