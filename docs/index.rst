@@ -25,9 +25,7 @@ agate-dbf uses a monkey patching pattern to add read for dbf files support to al
     import agate
     import agatedbf
 
-    agatedbf.patch()
-
-Calling :func:`.patch` attaches all the methods of :class:`.TableDBF` to :class:`agate.Table <agate.table.Table>`.
+Importing agate-dbf adds new methods to :class:`agate.Table <agate.table.Table>`.
 
 .. code-block:: python
 
@@ -39,10 +37,7 @@ Calling :func:`.patch` attaches all the methods of :class:`.TableDBF` to :class:
 API
 ===
 
-.. autofunction:: agatedbf.patch
-
-.. autoclass:: agatedbf.table.TableDBF
-    :members:
+.. autofunction:: agatedbf.table.from_dbf
 
 Authors
 =======

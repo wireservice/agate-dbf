@@ -9,8 +9,6 @@ except ImportError:
 import agate
 import agatedbf
 
-agatedbf.patch()
-
 class TestDBF(agate.AgateTestCase):
     def setUp(self):
         self.table = agate.Table.from_csv('examples/testdbf_converted.csv')

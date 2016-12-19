@@ -3,7 +3,7 @@
 from setuptools import setup
 
 install_requires = [
-    'agate>=1.2.1',
+    'agate>=1.5.0',
     'dbfread>=2.0.5'
 ]
 
