@@ -1,3 +1,8 @@
+0.2.3
+-----
+
+* Drop support for Python 2.7 (EOL 2020-01-01), 3.4 (2019-03-18), 3.5 (2020-09-13).
+
 0.2.2 - July 7, 2020
 --------------------
 
@@ -7,7 +12,7 @@
 ----------------------
 
 * agate-dbf is now tested against Python 3.6 and 3.7.
-* Drop support for Python 3.3 (end-of-life was September 29, 2017).
+* Drop support for Python 3.3 (EOL 2017-09-29).
 
 0.2.0 - December 19, 2016
 -------------------------
