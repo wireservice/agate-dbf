@@ -18,7 +18,7 @@ def from_dbf(cls, path, encoding=None):
         Path to an DBF file to load. Note that due to limitations of the
         dependency you can not pass a file handle. It must be a path.
     """
-    dbf = DBF(path, load=True, lowernames=True, encoding=encoding, recfactory=recfactory)
+    dbf = DBF(path, load=True, encoding=encoding, recfactory=recfactory)
     table = agate.Table(dbf.records, column_names=dbf.field_names)
 
     return table
