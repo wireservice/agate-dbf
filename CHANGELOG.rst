@@ -1,5 +1,7 @@
-0.2.2
------
+0.2.2 - July 7, 2020
+--------------------
+
+* No longer lowercase column names.
 
 0.2.1 - March 16, 2019
 ----------------------
@@ -11,7 +13,7 @@
 -------------------------
 
 * Remove dependency on monkeypatching.
-* Upgraded required agate to ``1.5.0``.
+* Upgrade required agate to ``1.5.0``.
 
 0.1.0 - February 5, 2016
 ------------------------
