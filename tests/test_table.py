@@ -1,13 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 
-try:
-    import unittest2 as unittest
-except ImportError:
-    import unittest
-
 import agate
-import agatedbf
+
+import agatedbf  # noqa: F401
+
 
 class TestDBF(agate.AgateTestCase):
     def setUp(self):
