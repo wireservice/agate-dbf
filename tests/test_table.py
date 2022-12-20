@@ -3,6 +3,8 @@
 
 import agate
 
+import agatedbf  # noqa: F401
+
 
 class TestDBF(agate.AgateTestCase):
     def setUp(self):
