@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 
-import unittest
-
 import agate
-import agatedbf
+
 
 class TestDBF(agate.AgateTestCase):
     def setUp(self):
