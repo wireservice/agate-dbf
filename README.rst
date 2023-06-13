@@ -1,5 +1,5 @@
-.. image:: https://travis-ci.org/wireservice/agate-dbf.png
-    :target: https://travis-ci.org/wireservice/agate-dbf
+.. image:: https://github.com/wireservice/agate-dbf/workflows/CI/badge.svg
+    :target: https://github.com/wireservice/agate-dbf/actions
     :alt: Build status
 
 .. image:: https://img.shields.io/pypi/dw/agate-dbf.svg
@@ -22,7 +22,7 @@ agate-dbf adds read support for dbf files to `agate <https://github.com/wireserv
 
 Important links:
 
-* agate             http://agate.rtfd.org
-* Documentation:    http://agate-dbf.rtfd.org
+* agate             https://agate.rtfd.org
+* Documentation:    https://agate-dbf.rtfd.org
 * Repository:       https://github.com/wireservice/agate-dbf
 * Issues:           https://github.com/wireservice/agate-dbf/issues
