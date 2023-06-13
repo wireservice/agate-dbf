@@ -26,7 +26,7 @@ extensions = ['sphinx.ext.autodoc', 'sphinx.ext.intersphinx']
 autodoc_member_order = 'bysource'
 
 intersphinx_mapping = {
-    'python': ('https://docs.python.org/3.5/', None),
+    'python': ('https://docs.python.org/3.11/', None),
     'agate': ('https://agate.readthedocs.org/en/latest/', None)
 }
 
