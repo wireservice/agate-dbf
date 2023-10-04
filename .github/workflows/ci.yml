@@ -16,7 +16,7 @@ jobs:
           cache: pip
           cache-dependency-path: setup.py
       - run: pip install .[test] coveralls
-      - run: pytest --cov agatesql
+      - run: pytest --cov agatedbf
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: coveralls --service=github
