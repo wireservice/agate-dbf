@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.abspath('..'))
 
 project = 'agate-dbf'
 copyright = '2015, Christopher Groskopf'
-version = '0.2.3'
+version = '0.2.4'
 release = version
 
 # -- General configuration ---------------------------------------------------
