@@ -2,8 +2,8 @@
     :target: https://github.com/wireservice/agate-dbf/actions
     :alt: Build status
 
-.. image:: https://coveralls.io/repos/wireservice/agate-dbf/badge.svg?branch=master
-    :target: https://coveralls.io/r/wireservice/agate-dbf
+.. image:: https://codecov.io/github/wireservice/agate-dbf/graph/badge.svg
+    :target: https://codecov.io/github/wireservice/agate-dbf
     :alt: Coverage status
 
 .. image:: https://img.shields.io/pypi/dw/agate-dbf.svg
